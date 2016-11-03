@@ -1,0 +1,93 @@
+/* roboto-condensed-300 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'),
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-300.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-condensed-v13-latin/roboto-condensed-v13-latin-700.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
+}
+
+/*  proxima nova semibold */
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  font-style: normal;
+  src: url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+       url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.woff2') format('woff2'),
+       url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.woff') format('woff'),
+       url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.ttf') format('truetype'),
+       url('../fonts/Proxima Nova Semibold/Proxima Nova Semibold.svg#Proxima Nova') format('svg');
+}
+
+/*  proxima nova regular */
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  font-style: normal;
+  src: url('../fonts/Proxima Nova/Proxima Nova.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+       url('../fonts/Proxima Nova/Proxima Nova.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Proxima Nova/Proxima Nova.woff2') format('woff2'),
+       url('../fonts/Proxima Nova/Proxima Nova.woff') format('woff'),
+       url('../fonts/Proxima Nova/Proxima Nova.ttf') format('truetype'),
+       url('../fonts/Proxima Nova/Proxima Nova.svg#Proxima Nova') format('svg');
+}
+
+/*  proxima nova bold */
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  font-style: normal;
+  src: url('../fonts/Proxima Nova Bold/Proxima Nova Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+       url('../fonts/Proxima Nova Bold/Proxima Nova Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Proxima Nova Bold/Proxima Nova Bold.woff2') format('woff2'),
+       url('../fonts/Proxima Nova Bold/Proxima Nova Bold.woff') format('woff'),
+       url('../fonts/Proxima Nova Bold/Proxima Nova Bold.ttf') format('truetype'),
+       url('../fonts/Proxima Nova Bold/Proxima Nova Bold.svg#Proxima Nova') format('svg');
+}
+
+.font__robotoCondensedLight{
+  font-family: 'Roboto Condensed Light', 'Roboto Condensed', 'Roboto', 'PT Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.font__robotoCondensedBold{
+  font-family: 'Roboto Condensed Bold', 'Roboto Condensed', 'Roboto', 'PT Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.font__proximaNovaSemibold{
+  font-family: 'Proxima Nova Semibold', 'Proxima Nova', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+}
+
+.font__proximaNovaRegular{
+  font-family: 'Proxima Nova Regular', 'Proxima Nova', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+}
+
+.font__proximaNovaBold{
+  font-family: 'Proxima Nova Bold', 'Proxima Nova', 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}

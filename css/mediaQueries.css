@@ -1,0 +1,776 @@
+@media screen and (max-width: 1200px) {
+
+.mainPage__item{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.mainPage__content{
+	width: 94%;
+}
+					/* -------------- */
+.header__info_phone{
+	padding: 0 15px;
+	width: 210px;
+}
+.header__info_schedule{
+	padding: 0 15px;
+	width: 130px;
+}
+					/* ----------------- */
+.howItWork__form .form__input{
+	max-width: 340px
+}
+.howItWork__form .form__button{
+	max-width: 340px;
+}
+					/* ------------------- */
+.footer__picture_car{
+	display: none;
+}
+}
+
+@media screen and (max-width: 992px) {
+
+.mainPage__item{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.mainPage__content{
+	width: 98%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.mainPage__item{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.mainPage__content{
+	width: 90%;
+}
+.mainPage__heading{
+	font-size: 24px;
+}
+.mainPage__heading:before,
+.mainPage__heading:after {
+	border-width: 0 10px;
+}
+					/* ---------------- */
+.header__title_heading{
+	font-size: 40px;
+}
+.mainPage__item_header{
+	height: auto;
+	background-position: 20% 10%;
+}
+.header__info{
+	padding: 0;
+}
+.header__info .row{
+	margin: 0;
+}
+.header__info_logo{
+	padding-left: 0;
+}
+.header__info_schedule{
+	padding-right: 0;
+}
+.form__text{
+	text-align: center;
+}
+.header__form .form__input,
+.header__form .form__button{
+	float: none;
+}
+					/* --------------- */
+.selectCar__block{
+	height: 191px;
+	overflow: hidden;
+}
+.selectCar__content > .row > div:nth-of-type(1){
+	padding-left: 0;
+} 
+.selectCar__content > .row > div:nth-of-type(3){
+	padding-right: 0;
+}
+.selectCar__block_freightСar{
+	background-position: -80px 0px;
+	-webkit-background-size: auto 120%;
+	background-size: auto 120%;
+}
+.selectCar__block_foreignСars{
+	background-position: -120px 0;
+}
+.selectCar__block_title{
+	font-size: 14px;
+	line-height: 46px;
+  	height: 46px;
+  	width: 100%;
+}
+.selectCar__block:hover .selectCar__block_title{
+	height: 191px;
+	line-height: 100px;
+}
+					/* ---------------------- */
+.howItWorks__buttons{
+	padding: 0;
+}
+.howItWorks__buttons > .row{
+	margin: 0;
+}
+.howItWorks__buttons > .row div:nth-of-type(1){
+	padding-left: 0;
+}
+.howItWorks__buttons > .row div:nth-of-type(2){
+	padding-right: 0;
+}
+.howItWorks__media{
+	padding: 0px;
+}
+.howItWorks__media > .row{
+	margin: 0;
+}
+.howItWorks__media_video{
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	background-position: 0 0;
+}
+.modal .modal-body iframe{
+	width:100%;
+}
+.howItWorks__media_img{
+	height: 113px;
+}
+.howItWorks__media_img:nth-child(2){
+	background-position: 0 -20px;
+}
+.howItWorks__media_img:nth-child(3){
+	background-position: 0 -15px;
+}
+.howItWorks__media_img:nth-child(4){
+	background-position: 0 -15px;
+}
+.howItWorks__info{
+	padding-left: 0px;
+}
+.howItWorks__info_title{
+	font-size: 24px;
+}
+.howItWorks__info_desc{
+	font-size: 14px;
+}
+.howItWork__form{
+	padding-top: 100px;
+}
+.howItWork__form .form__input,
+.howItWork__form .form__button{
+	float: none;
+}
+.howItWork__form .form__input{
+	margin-bottom: 15px;
+}
+					/* ------------------ */
+.aboutUs__content{
+	padding-left: 0;
+	padding-right: 0;
+}
+.aboutUs__content{
+	padding-top: 40px;
+	padding-bottom: 140px;
+}
+.aboutUs__carousel{
+	height: 320px;
+}
+.aboutUs__carousel .carousel-inner{
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-position: 200% 0;
+}
+.aboutUs__carousel_content{
+	height: 320px;
+}
+.aboutUs__carousel_heading{
+	font-size: 24px;
+}
+.aboutUs__carousel_text{
+	font-size: 14px;
+}
+.aboutUs__content .carousel-control.left{
+	line-height: 320px;
+	text-align: right;
+}
+.aboutUs__content .carousel-control.right{
+	line-height: 320px;
+	text-align: left;
+}
+					/* ----------------- */
+.guarantees__content{
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+					/* ----------------------- */
+.mainPage__item_reviews{
+	padding-top: 70px;
+}
+.mainPage__item_reviews > .mainPage__heading:before,
+.mainPage__item_reviews > .mainPage__heading:after{
+	display: none;
+}
+.reviews__content{
+	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.reviews__content_text{
+	padding-left: 0px;
+}
+.reviews__content_img{
+	height: 150px;
+	background-position: left center;
+}
+.content__text_name{
+	font-size: 24px;
+	position: absolute;
+	top: -90px;
+	right: 10px;
+}
+.content__text_modelCar, 
+.content__text_experience, 
+.content__text_strandedMileage{
+	font-size: 16px;
+	margin-right: 10px;
+}
+.content__text_recall{
+	font-size: 14px;
+	padding-right: 0;
+}
+					/* ------------------ */
+.mainPage__item_ourContacts{
+	height: 500px;
+}
+.ourContacts__backgroudImg{
+	width: 967px;
+	height: 100%;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	top: 0px;
+	left: 50%;
+}
+.ourContacts__content{
+	height: 500px;
+}
+					/* -------------------- */
+.faq__content{
+	padding: 35px 0 60px;
+}
+.faq__content .row{
+	margin: 0;
+}
+.faq__content .panel-group{
+	padding: 0;
+}
+.faq__content a{
+  	font-size: 18px;
+}
+.faq__content .panel-body{
+	font-size: 16px;
+	padding: 10px 10px 10px 55px;
+}
+					/* --------------------- */
+.mainPage__item_footer{
+	width: 100%;
+	height: auto;
+}
+.footer__form_desc{
+	margin-bottom: 30px;
+}
+.footer__form .form__input,
+.footer__form .form__button,
+.footer__form .form__textarea{
+	margin-bottom: 15px;
+}
+.footer__form input:nth-of-type(1),
+.footer__form input:nth-of-type(2){
+	margin-bottom: 15px;
+}
+.footer__info_sectionLink a{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px;
+}
+.footer__info_contact p{
+	font-size: 16px;
+}
+.footer__info{
+	padding: 0;
+}
+.footer__info > .row{
+	margin: 0;
+}
+.footer__info > .row > div{
+	padding-left: 0;
+}
+.footer__info > .row > div > .row{
+	margin-left: 0;
+}
+.footer__info_logo{
+	padding-left: 0;
+}
+.footer__info_sectionLink{
+	padding: 0;
+}
+.footer__contact_workingHours{
+	width: 100px;
+}
+.footer__info_socialNetworks{
+	padding: 0;
+	text-align: right;
+}
+.footer__info_LP{
+	padding: 0;
+}
+}
+
+@media screen and (max-width: 480px) {
+	
+.mainPage__item{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.mainPage__content{
+	width: 98%;
+}
+.mainPage__heading{
+	font-size: 16px;
+}
+					/* ------------------ */
+.header__info .row{
+	padding-top: 10px;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.header__info_logo{
+	order: 1;
+}
+.header__info_email{
+	order: 4;
+	margin-left:138px;
+}
+.header__info_phone{
+	order: 2;
+}
+.header__info_schedule{
+	order: 3;
+	padding-left: 0;
+	width: 100px;
+}
+.header__title{
+	margin-top: 50px;
+}
+.header__title_heading{
+	font-size: 30px;
+}
+.header__title_text{
+	font-size: 24px;
+}
+.header__form{
+	padding: 40px;
+}
+.form__text_question{
+	font-size: 20px;
+}
+.form__text_desc{
+	margin-bottom: 25px;
+}
+					/* -------------------- */
+.mainPage__item_selectСar{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.selectCar__content{
+	margin-top: 30px;
+}
+.selectCar__block{
+	height: 143px;
+	overflow: hidden;
+}
+.selectCar__block_foreignСars{
+	background-position: -100px 0;
+}
+.selectCar__block_title{
+	font-size: 12px;
+	line-height: 34px;
+  	height: 34px;
+  	width: 100%;
+}
+.selectCar__block:hover .selectCar__block_title{
+	height: 143px;
+	line-height: 143px;
+}
+.selectCar__block_domesticСar:hover .selectCar__block_title{
+	height: inherit;
+	line-height: 80px;
+}
+					/* ---------------- */
+
+.howItWorks__buttons{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.howItWorks__button{
+	height: 47px;
+	font-size: 12px;
+}
+.howItWorks__media_img{
+	height: 85px;
+}
+.howItWorks__info_title{
+	font-size: 18px;
+}
+.howItWork__detail{
+	float: right;
+	width: 250px;
+	margin-left: 0px;
+	padding-right: 0;
+}
+.howItWork__form{
+	padding-bottom: 130px;
+}
+.howItWork__form_question{
+	font-size: 16px;
+}
+.howItWork__form_desc{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+					/* --------------------- */
+
+.aboutUs__carousel_content{
+	padding: 0 50px;
+}
+.aboutUs__content .carousel-control{
+	font-size: 30px;
+	width: 8%;
+}
+.aboutUs__carousel{
+	height: 240px;
+}
+.aboutUs__carousel_content{
+	height: 240px;
+}
+.aboutUs__content .carousel-control.left,
+.aboutUs__content .carousel-control.right{
+	line-height: 240px;
+}
+.aboutUs__content{
+	padding-bottom: 110px;
+}
+					/* ------------- */
+
+.guarantees__section{
+	height: auto;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.guarantees__section:nth-child(2n+1){
+	padding-left: 0;
+	padding-right: 10px;
+}
+.guarantees__section:nth-child(2n+2){
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.guarantees__section:nth-child(3) .guarantees__section_text{
+	padding: 0;
+}
+					/* --------------- */
+
+.mainPage__item_reviews{
+	height: 550px;
+	background-position: 35% 95%;
+}
+.reviews__content_text p{
+	font-size: 14px;
+}
+.content__text_name{
+	left: 50%;
+	right: auto;
+}
+.content__text_modelCar{
+	position: absolute;
+	top: -65px;
+	left: 50%;
+}
+						/* ----------------- */
+
+.ourContacts__backgroudImg{
+	left: 5%;
+}
+						/* -------------------- */
+
+.footer__info{
+	padding-bottom: 100px;
+}
+.footer__form_question{
+	font-size: 16px;
+}
+.footer__form_desc{
+	font-size: 14px;
+}
+.footer__info > .row div{
+	width: 50%;
+	padding: 0 10px;
+}
+.footer__info > .row div > .row{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.footer__info > .row .footer__info_logo,
+.footer__info > .row .footer__info_sectionLink,
+.footer__info > .row .footer__info_contact,
+.footer__info > .row .footer__info_socialNetworks,
+.footer__info > .row .footer__info_LP{
+	width: 100%;
+}
+.footer__info_socialNetworks{
+	margin-top: 50px;
+	text-align: left;
+}
+.footer__info_LP{
+	position: absolute;
+	left: -95%;
+	top: 90%;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+.mainPage__item{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.mainPage__content{
+	width: 100%;
+}
+					/* ----------- */
+
+.header__info .row{
+	justify-content: space-between;
+}
+.header__info > .row .header__info_logo{
+	width: 54px;
+	font-size: 20px;
+}
+.header__info > .row .header__info_phone{
+	width: 130px;
+	font-size: 14px;
+	padding: 0;
+}
+.header__info > .row .header__info_schedule{
+	width: 76px;
+	font-size: 14px;
+	padding: 0;
+}
+.header__info > .row .header__info_email{
+	width: 130px;
+	font-size: 14px;
+	padding: 0;
+	margin-left: 80px;
+}
+.header__title{
+	margin-top: 40px;
+}
+.header__title_heading{
+	font-size: 20px;
+}
+.header__title_text{
+	font-size: 16px;
+}
+.header__form{
+	width: 320px;
+	margin-left: -15px;
+	margin-top: 20px;
+	padding: 30px 15px;
+	border-radius: 0;
+}
+.form__text{
+	padding: 0;
+}
+.form__text_question{
+	font-size: 16px;
+}
+.form__text_desc{
+	font-size: 14px;
+}
+.header__form .form__input, 
+.header__form .form__button{
+	width: 290px;
+}
+					/* -------------- */
+.mainPage__item_selectСar{
+	position: relative;
+}
+.selectCar__heading{
+	width: 141px;
+	position: absolute;
+	right: 15px;
+	top: 120px;
+}
+.mainPage__item_selectСar > .mainPage__heading:before,
+.mainPage__item_selectСar > .mainPage__heading:after {
+	display: none;
+}
+.mainPage__item_selectСar{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.selectCar__content > .row div{
+	width: 141px;
+	padding: 0;
+}
+.selectCar__content > .row > div:nth-of-type(1){
+	margin-right: 100px;
+	padding-bottom: 4px;
+}
+.selectCar__content > .row > div:nth-of-type(2){
+	padding: 4px 4px 0 0;
+	margin-right: 4px;
+}
+.selectCar__content > .row > div:nth-of-type(3){
+	padding: 4px 0 0 4px;
+}
+				/* ------------------- */
+.howItWorks__buttons > .row div{
+	padding: 0;
+}				
+.howItWorks__buttons > .row .howItWorks__button{
+	width: 145px;
+	padding: 0;
+	color: #1fc9f6;
+	background-color: transparent;
+	box-shadow: none;
+	float: none;
+	margin: 0;
+}
+.howItWorks__buttons > .row .howItWorks__button:hover{
+	color: #2e2d2d;
+}
+.howItWorks__media_video{
+	height: 166px;
+	line-height: 166px;
+}
+.howItWorks__media_img{
+	height: 55px;
+}
+.howItWorks__media_img:nth-child(2),
+.howItWorks__media_img:nth-child(3),
+.howItWorks__media_img:nth-child(4){
+	background-position: center center;
+}
+.howItWork__form{
+	padding: 50px 0;
+	width: 320px;
+	margin-left: -15px;
+}
+.howItWork__form .form__input,
+.howItWork__form .form__button{
+	width: 290px;
+}
+					/* -------------------- */
+.aboutUs__carousel{
+	border-radius: 0px;
+}
+.aboutUs__carousel .carousel-inner{
+	background-position: -200% 0;
+	border-radius: 0px;
+}
+.aboutUs__content .carousel-control.left, 
+.aboutUs__content .carousel-control.right{
+	border-radius: 0px;
+	width: 55px;
+	height: 34px;
+	font-size: 20px;
+	line-height: 34px;
+	text-align: center;
+	top: 240px;
+}
+.aboutUs__content .carousel-control.left{
+	left: 90px;
+}
+.aboutUs__content .carousel-control.right{
+	right: 90px;
+}
+.aboutUs__carousel_content{
+	padding: 0 10px;
+}
+					/* ---------- */
+.guarantees__section{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.guarantees__section:nth-child(2n+1){
+	padding-right: 0px;
+}
+.guarantees__section:nth-child(2n+2){
+	padding-left: 0px;
+}
+					/* ----------------- */
+.mainPage__item_reviews{
+	height: auto;
+	padding-bottom: 30px;
+}
+.reviews__carousel{
+	height: 520px;
+}
+.reviews__carousel .carousel-inner{
+	height: 480px;
+}
+.reviews__content_img{
+	width: 50%;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.content__text_name{
+	top: -140px;
+}
+.content__text_modelCar{
+	top: -80px;
+}
+.content__text_experience{
+	position: absolute;
+	left: 50%;
+	top: -50px;
+}
+.content__text_strandedMileage{
+	width: 145px;
+	margin-right: 0;
+}
+					/* -------------------- */
+
+					/* ----------------- */
+.footer__info > .row div{
+	padding: 0;
+}
+.footer__info_sectionLink a{
+	font-size: 14px;
+}
+.footer__info_contact p{
+	font-size: 14px;
+}
+.footer__info_contact .footer__contact_tel{
+	width: 130px;
+}
+.footer__info_socialNetworks{
+	margin-top: 20px;
+	font-size: 12px;
+}
+.footer__info_LP{
+	position: absolute;
+	left: -90%;
+	top: 90%;
+
+}
+}
